@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأمن السيبراني - موقع احترافي</title>
+    <style>
+        /* تنسيق الخلفية مع تدرج ألوان عصري */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        /* تنسيق العنوان الرئيسي */
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: #1e293b;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            color: #60a5fa;
+            font-size: 2.5rem;
+        }
+
+        /* تنسيق قائمة التنقل */
+        nav {
+            background: #2563eb;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d1fae5;
+            transform: scale(1.1);
+        }
+
+        /* تصميم الأقسام */
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        section h2 {
+            color: #60a5fa;
+            text-align: center;
+        }
+
+        section p, ul {
+            text-align: justify;
+        }
+
+        /* تنسيق الصور */
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        /* تنسيق النموذج */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        input[type="submit"] {
+            background: #3b82f6;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background: #2563eb;
+        }
+
+        /* التذييل */
+        footer {
+            text-align: center;
+            background: #1e293b;
+            padding: 1rem;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .more-info a {
+            color: #60a5fa;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        .more-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <h1>الأمن السيبراني</h1>
+        <p>تعرف على أهمية حماية بياناتك في العالم الرقمي</p>
+    </header>
+
+    <!-- قائمة التنقل -->
+    <nav>
+        <ul>
+            <li><a href="#intro">مقدمة</a></li>
+            <li><a href="#threats">التهديدات</a></li>
+            <li><a href="#tips">نصائح</a></li>
+            <li><a href="#contact">تواصل</a></li>
+            <li><a href="#references">المراجع</a></li>
+        </ul>
+    </nav>
+
+    <!-- المحتوى الرئيسي -->
+    <main>
+        <!-- القسم الأول: مقدمة -->
+        <section id="intro">
+            <h2>مقدمة</h2>
+            <p>
+                في عصرنا الحالي، أصبح الأمن السيبراني من أهم المجالات التي يجب أن يتعامل معها كل فرد ومؤسسة.
+                يشمل الأمن السيبراني حماية الأنظمة، الشبكات، والبيانات من الهجمات والتهديدات الإلكترونية التي قد تؤدي إلى تسريب البيانات الحساسة أو تعطيل الخدمات.
+            </p>
+            <p>
+                يعتبر الأمن السيبراني أمرًا حيويًا لضمان استمرارية الأعمال، خاصة مع تزايد الهجمات الإلكترونية التي تهدد الشركات والحكومات في جميع أنحاء العالم.
+            </p>
+        </section>
+
+        <!-- القسم الثاني: التهديدات -->
+        <section id="threats">
+            <h2>التهديدات السيبرانية</h2>
+            <p>هناك العديد من التهديدات السيبرانية التي يجب أن نكون على دراية بها، ومنها:</p>
+            <ul>
+                <li><strong>التصيد الاحتيالي (Phishing):</strong> هو هجوم يحاول خداع الضحية للكشف عن معلومات حساسة مثل كلمات المرور أو تفاصيل الحسابات.</li>
+                <li><strong>فيروسات الفدية (Ransomware):</strong> برامج خبيثة تقوم بتشفير البيانات وتطلب فدية لفك التشفير.</li>
+                <li><strong>الهجمات على الشبكات:</strong> تشمل محاولات الوصول غير المصرح به إلى الأنظمة والشبكات باستخدام تقنيات متعددة مثل البرمجيات الخبيثة أو الثغرات الأمنية.</li>
+                <li><strong>هجمات حجب الخدمة (DDoS):</strong> هجمات تهدف إلى تعطيل الخدمة على الإنترنت عن طريق إرسال حجم كبير من البيانات إلى الخادم.</li>
+            </ul>
+            <img src="2.jpg" alt="صورة تعبر عن الأمن السيبراني">
+        </section>
+
+        <!-- القسم الثالث: نصائح -->
+        <section id="tips">
+            <h2>نصائح للحماية</h2>
+            <p>إليك أهم النصائح لحماية نفسك من الهجمات السيبرانية:</p>
+            <ul>
+                <li>تأكد من تحديث برامجك وأنظمة التشغيل بشكل دوري لسد الثغرات الأمنية.</li>
+                <li>استخدم كلمات مرور قوية وفريدة لكل حساب.</li>
+                <li>احذر من فتح الرسائل أو الروابط المشبوهة من مصادر غير معروفة.</li>
+                <li>استخدم برامج مكافحة الفيروسات والحماية من البرمجيات الخبيثة.</li>
+            </ul>
+        </section>
+
+        <!-- القسم الرابع: المراجع -->
+        <section id="references">
+            <h2>المراجع</h2>
+            <p>للإطلاع على المزيد من المعلومات حول الأمن السيبراني، يمكنك زيارة هذه الروابط:</p>
+            <ul>
+                <li><a href="https://www.cybersecurity.org" target="_blank">CyberSecurity.org</a></li>
+                <li><a href="https://www.cisa.gov" target="_blank">CISA - Cybersecurity & Infrastructure Security Agency</a></li>
+                <li><a href="https://www.csoonline.com" target="_blank">CSO Online - أخبار وتقارير الأمن السيبراني</a></li>
+            </ul>
+        </section>
+
+        <!-- القسم الخامس: تواصل -->
+        <section id="contact">
+            <h2>تواصل معنا</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">اسمك:</label>
+                <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" placeholder="اكتب بريدك الإلكتروني" required>
+
+                <label for="message">رسالتك:</label>
+                <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
+
+                <input type="submit" value="إرسال">
+            </form>
+        </section>
+
+        <!-- الرابط الإضافي لبياناتك -->
+        <section class="more-info">
+            <p><a href="profil.html" target="_blank">لمعرفة المزيد عن منشئ هذا الموقع</a></p>
+        </section>
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <p>حقوق النشر © 2024 - موقع الأمن السيبراني</p>
+    </footer>
+</body>
+</html>
